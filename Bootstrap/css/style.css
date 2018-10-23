@@ -1,0 +1,21 @@
+nav.navbar.bg-primary,
+.bg-primary,
+a.btn-primary,
+a.nav-link.active {
+   background-color: #770a2b !important;
+   border-color: #770a2b;
+}
+
+a.card-link
+a.nav-link {
+   color: #00d912;
+}
+
+body {
+   background: #e8e9f3;
+}
+
+.jumbotron {
+   background:#c4d8e2;
+   border-top: 3px solid rgb(66, 12, 12);
+}

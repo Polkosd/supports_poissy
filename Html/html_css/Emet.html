@@ -1,0 +1,143 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="Css/Emet.css">
+        <title>Emet</title>
+    </head>
+    <body>  
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                <link rel="stylesheet" href="../html_css/Emet.css">
+                <title>Emet</title>
+            </head>
+            <body>  
+                <header>
+                    <h1>Coder avec emmet</h1>
+                </header>
+                <nav>
+                    <a href="#html">HTML</a>
+                    <a href="#css">CSS</a>
+                </nav>
+        
+                <h2 id="html">HTML</h2>
+                <div>
+                    <h3>Ajouter un element enfant : ">"</h3>
+                    <code> li>p </code><br>
+                    <code> ul>li>p </code>
+                    <p>Resultat</p>
+                    <img src="img/img/em1.png" alt="emmet examples">
+                </div>
+                
+                <div>
+                    <h3>Ajouter un frére : "+"</h3>
+                    <code> ul>li>p+a </code>
+                    <p>Resultat : </p>
+                    <img src="img/img/em2.png" alt="emmet examples">
+                </div>
+                
+                <div>
+                    <h3>Ajouter un element multiples</h3>
+                    <code> ul>li*3>p+img </code>
+                    <p>Resultat : </p>
+                    <img src="img/img/em3.png" alt="emmet examples">
+                </div>
+        
+                <div>
+                    <h3>Ajouter une class : "."</h3>
+                    <code> ul.wrapper </code>
+                    <p>Resultat : </p>
+                    <img src="img/img/em4.png" alt="emmet examples">
+                </div>
+        
+                <div>
+                        <h3>Grouper des elements multiples: "( )"</h3>
+                        <code> ul>(header>ul>li*2>a)+footer>p</code><br>
+                        <code> ul>(li>p+img+a)+li*2>p+img</code>
+                        <p> Resultat:</p>
+                        <img src="img/img/em5.png" alt="emmet exemples">
+                    </div>
+        
+                    <div>
+                            <h3>Inserer du texte dans un element: "{}"</h3>
+                            <code> a{click me}</code><br>
+                            <code>p>{click}+a{here}+{to continue}</code>
+                            <p> Resultat:</p>
+                            <img src="img/img/em6.png" alt="emmet exemples">
+                        </div>
+        
+                        <div>
+                                <h3>Ajouter un commentaire: "$"</h3>
+                                <code>ul>li.item$*5</code><br>
+                                <p> Resultat:</p>
+                                <img src="img/img/em7.png" alt="emmet exemples">
+                            </div>
+        
+                            <div>
+                                    <h3>Commencer la numerotaion du chiffre voulu: "$@X"</h3>
+                                    <code>ul>li.item$@3*5</code><br>
+                                    <p> Resultat:</p>
+                                    <img src="img/img/em8.png" alt="emmet exemples">
+                                </div>
+        
+                                <div>
+                                        <h3>Numeoter dans lordre decroissant: "$@X"</h3>
+                                        <code>ul>li.item$@3*5</code><br>
+                                        <p> Resultat:</p>
+                                        <img src="img/img/em9.png" alt="emmet exemples">
+                                    </div>
+        
+                                    <div>
+                                            <h3>remonter un element enfant: "^"</h3>
+                                            <code>div>p>em{hello}^a</code><br>
+                                            <p> Resultat:</p>
+                                            <img src="img/img/em10.png" alt="emmet exemples">
+                                        </div>
+        
+                                        <div>
+                                                <h3>Ajouter un attribut: [attr_name="valeur"]</h3>
+                                                <code>img[src="http://placecage.com/300/300" alt="nicCage"</code><br>
+                                                <p> Resultat:</p>
+                                                <img src="img/img/em11.png" alt="emmet exemples">
+                                            </div>
+        
+                                            <div>
+                                                    <h3>En bref</h3>
+                                                    <code>div.list>ul(li.item$>p{paragraph $)+img[
+                                                        src="http://placecage.com/300/300"
+                                                        alt="nicCage"]+li.item$@2*4>p{paragraph $@2}+img
+                                                        [src="http://placesheen.com/$@1$$/$@5$$"]+a^^^footer{Place cage vrs placesheen}
+                                                    </code><br>
+                                                    <p> Resultat:</p>
+                                                    <img src="img/img/em12.png" alt="emmet exemples">
+                                                </div>
+                                                   
+                                                <div>
+                                                        <p>
+                                                            Le premier regroupement contient une &lt;li> qui a deux éléments enfants : &lt;p> qui contient du texte et &lt;img> qui contient un attribut src.
+                                                        </p>
+                                                        <p>
+                                                            Le regroupement suivant contient les &lt;li> 2 à 5, en multipliant des listes dont les noms de classe, le contenu de paragraphe, les valeurs d'attributs src s'incrémentent selon diverses syntaxes. Chaque &lt;li> contient également une ancre, invariable.
+                                                        </p>
+                                                        <p>
+                                                            Enfin, nous utilisons 3 fois ^ de façon à sortir de &lt;li>, puis de &lt;ul>, puis de &lt;div>, afin d'ajouter notre footer final.
+                                                        </p>
+                                                    </div>
+                                                 
+                                                    <h2 id="css">CSS</h2>
+                                                 
+                                                    <div>
+                                                        <p>Quelque raccourcis courants: </p>
+                                                        <img src="img/img/em13.png" alt="emmet exemples">
+                                                    </div>
+                                                 
+                                                 </body>
+                                                 </html>
+
+  
